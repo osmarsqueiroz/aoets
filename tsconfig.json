@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"target": "ES2017",
+		"module": "System",
+		"noImplicitAny": true,
+		"removeComments": true,
+		"preserveConstEnums": true,
+		"sourceMap": true,
+		"outFile": "./public/asset/index.js",
+		"strictNullChecks": true,
+		"esModuleInterop": true,
+		"outDir": "./dist",
+		"rootDir": "./"
+	},
+	"include": ["src/**/**/*", "tests/**/**/*"],
+	"exclude": ["node_modules", "**/*.spec.ts"]
+}

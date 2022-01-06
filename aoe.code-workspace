@@ -1,0 +1,14 @@
+{
+	"folders": [{
+		"path": "."
+	}],
+	"settings": {
+		"editor.fontFamily": "'Fira code', 'monospace'",
+		"editor.wordWrap": "on",
+		"editor.defaultFormatter": "HookyQR.beautify",
+		"editor.formatOnSave": true,
+		"eslint.alwaysShowStatus": true,
+		"javascript.format.insertSpaceAfterConstructor": true,
+		"javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true
+	}
+}
