@@ -10,4 +10,8 @@ export abstract class Recurso implements IRecurso {
 	getAtributo(): Atributo {
 		return this.atributo;
 	}
+
+	setAtributo(atributo: Atributo): void {
+		this.atributo = atributo;
+	}
 }
