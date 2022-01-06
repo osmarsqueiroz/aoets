@@ -37,11 +37,12 @@ test('Verificando se o atributo "Vida" tem o valor 40', () => {
 
 test('O Coletor pode ter o valor da vida alterado para + 10', () => {
 	const coletor = new Coletor();
-	const vida = coletor.getAtributo(Vida.name);
-	const valorVidaAtual = vida?.getValor() || 0;
+	const atributoVida = coletor.getAtributo(Vida.name);
+	const valorVidaAtual = atributoVida?.getValor() || 0;
 	const valorVidaNova = valorVidaAtual + 10;
-	vida?.setValor(valorVidaNova);
-	coletor.setAtributo(<Atributo>vida);
+	atributoVida?.setValor(valorVidaNova);
+
+	coletor.setAtributo(<Atributo>atributoVida);
 
 	const novaVida = coletor.getAtributo(Vida.name);
 	expect(novaVida?.getValor()).toBe(valorVidaNova);
